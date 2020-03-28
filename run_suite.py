@@ -27,3 +27,5 @@ with open(ihrm_report_path,"wb") as f:
     runner = HTMLTestRunner(f, verbosity=2, title="IHRM人力资源管理系统", description="这是使用HTMLTestRunner_PY3生成的报告")
     # 使用实例化的HTMLTestRunner运行测试套件
     runner.run(suite)
+
+print("更改输出语句,看是否会自动触发轮询构建")
