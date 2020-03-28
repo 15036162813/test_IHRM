@@ -1,0 +1,24 @@
+2020-03-26 15:07:25,423 INFO [root] [__init__.py(<module>:14)] - INFO TEST==========
+2020-03-26 15:07:25,653 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0acda2c8-50d9-43f3-80c9-c0517789ec69'}
+2020-03-26 15:07:25,723 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:25,773 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:25,843 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:25,923 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:25,983 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:26,063 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:26,143 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ca3686c8-ee70-4ba2-b501-b69f717a5191'}
+2020-03-26 15:07:26,223 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:26,293 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:26,353 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-26 15:07:26,443 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-26 15:07:26,503 INFO [root] [test_emp2.py(test01_login:36)] - 响应数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '039c2af3-bb1a-4bee-b496-1421cefbcd57'}
+2020-03-26 15:07:26,503 INFO [root] [test_emp2.py(test01_login:39)] - 令牌是:039c2af3-bb1a-4bee-b496-1421cefbcd57
+2020-03-26 15:07:26,503 INFO [root] [test_emp2.py(test01_login:41)] - 请求头是:{'Content-Type': 'application/json', 'Authorization': 'Bearer 039c2af3-bb1a-4bee-b496-1421cefbcd57'}
+2020-03-26 15:07:26,563 INFO [root] [test_emp2.py(test02_add_emp:55)] - 添加员工URL:http://182.92.81.159/api/sys/user
+2020-03-26 15:07:26,563 INFO [root] [test_emp2.py(test02_add_emp:58)] - 查询添加的员工信息为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243072016390901760'}}
+2020-03-26 15:07:26,563 INFO [root] [test_emp2.py(test02_add_emp:61)] - 员工id为:1243072016390901760
+2020-03-26 15:07:26,653 INFO [root] [test_emp2.py(test03_query_emp:77)] - 查询员工信息:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243072016390901760', 'mobile': '15899009982', 'username': '无敌的沙福林达人03', 'password': 'f62fc6740307314f6fead75acb1d38b7', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-26 15:07:26,733 INFO [root] [test_emp2.py(test04_modify_emp:91)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243072016390901760'}}
+2020-03-26 15:07:26,993 INFO [root] [test_emp2.py(test04_modify_emp:111)] - 打印SQL语句:select username from bs_user where id=1243072016390901760
+2020-03-26 15:07:26,993 INFO [root] [test_emp2.py(test04_modify_emp:114)] - 执行SQL语句查询的结果为:('无敌的沙福da',)
+2020-03-26 15:07:27,053 INFO [root] [test_emp2.py(test05_delete_emp:136)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

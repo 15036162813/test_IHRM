@@ -1,0 +1,13 @@
+2020-03-27 22:39:09,068 INFO [root] [__init__.py(<module>:14)] - INFO TEST==========
+2020-03-27 22:39:09,333 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '92220860-89b7-4379-a71d-7c35c22dbcf4'}
+2020-03-27 22:39:09,489 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:09,582 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:09,676 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:09,754 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:09,832 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:09,926 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:10,019 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1f7471f6-d910-4624-a195-7de735d50b5b'}
+2020-03-27 22:39:10,113 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:10,191 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-27 22:39:10,269 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-27 22:39:10,347 INFO [root] [test_login_params.py(test_login:38)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

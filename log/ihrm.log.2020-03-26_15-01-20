@@ -1,0 +1,12 @@
+2020-03-26 15:01:19,399 INFO [root] [__init__.py(<module>:14)] - INFO TEST==========
+2020-03-26 15:01:19,839 INFO [root] [test_emp2.py(test01_login:36)] - 响应数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0437b89e-df8e-4f9a-b67c-b050ed5a7a16'}
+2020-03-26 15:01:19,839 INFO [root] [test_emp2.py(test01_login:39)] - 令牌是:0437b89e-df8e-4f9a-b67c-b050ed5a7a16
+2020-03-26 15:01:19,839 INFO [root] [test_emp2.py(test01_login:41)] - 请求头是:{'Content-Type': 'application/json', 'Authorization': 'Bearer 0437b89e-df8e-4f9a-b67c-b050ed5a7a16'}
+2020-03-26 15:01:19,929 INFO [root] [test_emp2.py(test02_add_emp:55)] - 添加员工URL:http://182.92.81.159/api/sys/user
+2020-03-26 15:01:19,929 INFO [root] [test_emp2.py(test02_add_emp:58)] - 查询添加的员工信息为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243070478511591424'}}
+2020-03-26 15:01:19,929 INFO [root] [test_emp2.py(test02_add_emp:61)] - 员工id为:1243070478511591424
+2020-03-26 15:01:19,999 INFO [root] [test_emp2.py(test03_query_emp:77)] - 查询员工信息:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243070478511591424', 'mobile': '15899009982', 'username': '无敌的沙福林达人03', 'password': 'f62fc6740307314f6fead75acb1d38b7', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-26 15:01:20,089 INFO [root] [test_emp2.py(test04_modify_emp:91)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243070478511591424'}}
+2020-03-26 15:01:20,379 INFO [root] [test_emp2.py(test04_modify_emp:111)] - 打印SQL语句:select username from bs_user where id=1243070478511591424
+2020-03-26 15:01:20,379 INFO [root] [test_emp2.py(test04_modify_emp:114)] - 执行SQL语句查询的结果为:('无敌的沙福da',)
+2020-03-26 15:01:20,449 INFO [root] [test_emp2.py(test05_delete_emp:136)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
